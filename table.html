@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html table</title>
+    <link rel="stylesheet" href="./table.css">
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="Task" id="task" />
+      <p></p><br><br>
+      <input class=""
+        type="text"
+        id="description"
+        placeholder="Description"
+      /><br /><br />
+    </form>
+    <table class="tt" id="tj">
+      <tr>
+        <th>Task</th>
+        <th>Description</th>
+        <th>Duration</th>
+      </tr>
+      <tr>
+        <td>Meeting</td>
+        <td>Client Meeting</td>
+        <td>1:09:55</td>
+      </tr>
+      <tr>
+        <td>Product-abc</td>
+        <td>Developing-xyz</td>
+        <td>2:33:77</td>
+      </tr>
+      <tr>
+        <td>Personal Break</td>
+        <td>-</td>
+        <td>4:6:99</td>
+      </tr>
+      <tr>
+        <td>Meeting</td>
+        <td>Daily Scrum</td>
+        <td>7:9:00</td>
+      </tr>
+    </table>
+    <br />
+
+    <p id="hours">00</p>
+    <p>:</p>
+    <p id="minutes">00</p>
+    <p>:</p>
+    <p id="seconds">00</p></br></br>
+
+    <button id="but" class="butt">start</button><br /><br />
+  </body>
+  <script type="module" src="./funcsample.js"></script>
+</html>
